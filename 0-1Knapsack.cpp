@@ -15,7 +15,7 @@ int main()
 {
     int profit[]= {60,100,120};
     int wt[]= {10,20,30};
-    int w=3;
+    int w=50;
     memset(dp,-1,sizeof(dp));
     int n = sizeof(profit)/sizeof(profit[0]);
     cout << knapsack_01(n,w,profit,wt)<< endl;
